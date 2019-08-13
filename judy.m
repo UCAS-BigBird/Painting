@@ -48,33 +48,6 @@ VarName10 = data(:,10);
 % [xData9, yData9] = prepareCurveData( VarName1, VarName10 );
 % [fitresult9, ~] = fit( xData9, yData9, ft );
 % 
-% figure;
-% plot( fitresult,'k');
-% %第二条曲线
-% hold on
-% plot(fitresult2,'k');
-% %第三条曲线
-% hold on
-% plot(fitresult3,'k');
-% %第四条曲线
-% hold on
-% plot(fitresult4,'k');
-% %第五条曲线
-% hold on
-% plot(fitresult5,'k');
-% %第六条曲线
-% hold on
-% plot(fitresult6,'k');
-% %第七条曲线
-% hold on
-% plot(fitresult7,'k');
-% %第八条曲线
-% hold on
-% plot(fitresult8,'k');
-% %第九条曲线
-% hold on
-% plot(fitresult9,'k');
-% %第十条曲线
 
 figure;
 plot(VarName1,VarName2,'k');
